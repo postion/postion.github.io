@@ -1,0 +1,34 @@
+
+.c-con{
+	background: url(../images/cont_fruit_bg.png) no-repeat;
+	padding: 52px 0 0 65px;
+	height: 442px;
+}
+.c-con h2{
+	height:92px;
+	line-height: 92px;
+	font-size: 30px;
+	color: #5C5C5C;
+	font-weight: bold;
+}
+.c-con p{
+	line-height: 25px;
+	font-size: 14px;
+	color: #a1a1a1;
+}
+.c-con .btn{
+	margin-top: 25px;
+}
+.c-con .btn li a{
+	float: left;
+	width:75px;
+	height: 75px;
+	line-height: 75px;
+	margin-right: 2px;
+	background-color: #EDEDED;
+	text-align: center;
+}
+.c-con .btn li a:hover{
+	background-color: #F18400;
+	color: #fff;
+}

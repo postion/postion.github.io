@@ -1,0 +1,152 @@
+/*设置初始公共样式*/
+body{
+	color: #8c8c8c;
+	font-size: 12px;
+	font-family: "微软雅黑";
+}
+a{
+	color: #757575;
+	text-decoration: none;
+}
+.inner_c{
+	width: 1000px;
+	margin: 0 auto;
+}
+
+/*pagetop区域*/
+.pagetop{
+	width: 100%;
+	height: 665px;
+	overflow: hidden;
+}
+.pagetop_c{
+	width: 1000px;
+	position: relative;
+}
+ .header{
+	position: relative;
+	top: 19px;
+	width: 1000px;
+	height: 103px;
+	z-index: 3;
+}
+.logo{
+	cursor: pointer;
+	float: left;
+	text-indent: -999px;
+	width:151px;
+	height: 102px;
+	background: url(../images/logo.png) no-repeat ;
+}
+.header .nav{
+	float: left;
+}
+.header .nav li{
+	float: left;
+	width: 120px;
+	height: 91px;
+	border-right: 1px solid #EAEAEA;
+}
+.w114{
+	width: 100px;
+}
+.header .nav li a{
+	display: block;
+	width: 100%;
+	height: 63px;
+	padding-top: 28px;
+	background: #fff;
+	text-align: center;
+}
+.header .nav li a .chi{
+	display: block;
+	color: #636363;
+	font-size: 16px;
+	line-height: 30px;
+}
+.header .nav li a .eng{
+	display: block;
+	color: #C7C7C7;
+	line-height: 20px;
+}
+.header .nav li a:hover{
+	position: relative;
+	top:-4px;
+	border-top: 4px solid red;
+}
+.content{
+	width: 100%;
+	background: url(../images/con_bg.png) no-repeat center top #EDEDED;
+}
+.content_c{
+	overflow: hidden;
+	position: relative;
+	top: -54px;
+	background: #F3F3F3;
+	border-radius: 0 0 5px 5px;
+	box-shadow: 0px 2px 2px #C8C8C8;
+}
+.c_title{
+	background: #fff;
+	overflow: hidden;
+	height: 36px;
+	padding: 18px 20px 0 20px;
+	border-bottom: 1px solid #E0E0E0;
+}
+.link{
+	overflow: hidden;
+}
+.link h3{
+	width: 100%;
+	float: left;
+	font-size: 16px;
+	font-weight: 30px;
+	color: #666666;
+}
+.link ul{
+	padding-left: 7px;
+}
+.link ul li a{
+	line-height: 24px;
+}
+.link ul li a:hover{
+	color: #F28C00;
+}
+.main{
+	padding:20px 0 0 25px;
+}
+.main dl{
+	float: left;
+	margin-right: 60px;
+}
+.main dl dt{
+	color: #646464;
+	line-height: 30px;
+	font-size: 14px;
+}
+.main dl dd a{
+	display: block;
+	line-height: 24px;
+	color: #A0A0A0;
+}
+.vx p{
+	line-height: 30px;
+}
+/* .content区域 结束*/
+
+/* fooder区域 */
+.fooder{
+
+	background-color: #2B2B2B;
+	color: #B7B7B7;
+}
+
+.fooder p{
+	line-height: 50px;
+}
+.fooder p span{
+	float: right;
+}
+.fooder p span a{
+	margin-left: 10px;
+}

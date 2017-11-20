@@ -1,0 +1,82 @@
+.pagetop{
+	height: 351px;
+}
+.banner img{
+	width: 1920px;
+	position: absolute;
+	top: 0;
+	left: 50%;
+	margin-left: -960px;
+	height: 351px;
+}
+.banner .b-t{
+	display: block;
+	height: 100px;
+	width: 200px;
+	z-index: 8;
+	position: absolute;
+	top: 168px;
+	left: 50%;
+	margin-left: -100px;
+}
+.banner .b-t .chi{
+	display: block;
+	color:#F28800;
+	font-size: 36px;
+	font-weight: bold;
+	text-align: center;
+}
+.banner .b-t .eng{
+	display: block;
+	color: #D5D1CF;
+	font-size: 18px;
+	text-align: center;
+}
+.c_title{
+	overflow: hidden;
+	padding-top: 0;
+	height: 52px;
+}
+.c_title h2{
+	float: left;
+	color: #878787;
+	font-size: 12px;
+	line-height: 52px;
+}
+.c_title h2 a{
+	margin-left: 10px;
+}
+.c_title h2 a:before{
+	content: ">";
+	position: relative;
+	right: 5px; 
+	color: #878787;
+}
+.c_title h2 a.active{
+	color: #BF7316;
+}
+.c-nav{
+	height: 52px;
+	position: absolute;
+	right: 0px;
+
+}
+.c-nav li{
+	    float: left;
+		width: 104px;
+		height: 52px;
+}
+.c-nav li a{
+	display: block;
+	width: 104px;
+	text-align: center;
+	line-height: 52px;
+	border-left: 1px solid #E7E7E7;
+}
+.c-nav li a:hover{
+	position: relative;
+	width: 104px;
+	color: #fff;
+	height: 64px;
+	background: url(../images/hoverbg.png) no-repeat;
+}
